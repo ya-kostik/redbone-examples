@@ -1,0 +1,25 @@
+{
+  "name": "redbone-examples",
+  "version": "1.0.0",
+  "description": "Examples of using the Redbone library",
+  "main": "index.js",
+  "repository": "git@github.com:ya-kostik/redbone-examples.git",
+  "author": "Constantin Tsukanov <c@indotech.ru>",
+  "license": "Apache-2.0",
+  "private": false,
+  "scripts": {
+    "test": "jest --verbose",
+    "watch": "jest --watch",
+    "eslint": "eslint ./"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "redbone": "4.0.0-beta.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-security": "^1.4.0",
+    "jest": "^24.9.0"
+  }
+}
